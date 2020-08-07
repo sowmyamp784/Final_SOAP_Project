@@ -1,6 +1,6 @@
 node {
         stage('Checkout') {
-            git url: 'https://github.com/sunilmanipal/my-app1.git',  branch: 'master'
+            git url: 'https://github.com/sowmyamp784/Final_SOAP_Project.git',  branch: 'master'
             echo '****************CHECKOUT SUCCESSFUL****************'
         }
        
