@@ -1,0 +1,65 @@
+2020-08-06 16:51:21,420 INFO  [log] Status: FINISHED, time taken for TestCase was: 5461 ms
+2020-08-06 16:51:21,451 INFO  [log] Number of test steps which ran: 9
+2020-08-06 17:09:28,786 INFO  [log] Status: FINISHED, time taken for TestCase was: 5428 ms
+2020-08-06 17:09:28,819 INFO  [log] Number of test steps which ran: 9
+2020-08-06 17:09:30,372 INFO  [log] 
+2020-08-07 09:20:44,957 INFO  [log] Status: FINISHED, time taken for TestCase was: 5471 ms
+2020-08-07 09:20:44,983 INFO  [log] Number of test steps which ran: 9
+2020-08-07 09:20:46,781 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1SaveResponse>
+         <result>
+            <id>12341253</id>
+            <sku>SKU12342</sku>
+            <name>MPS Groovy</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-08-07 03:50:43</createdAt>
+            <updatedAt>2020-08-07 03:50:43</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>mps-groovy</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>
+2020-08-07 09:20:46,821 INFO  [log] SKU12342
